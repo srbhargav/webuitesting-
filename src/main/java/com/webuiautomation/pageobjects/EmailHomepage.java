@@ -13,7 +13,7 @@ import com.webautomations.util.WebUtil;
 public class EmailHomepage {
 
 	public SignInPage signOut(WebDriver driver) throws InterruptedException {
-		  WebUtil.click(driver,By.cssSelector(".gb_2a.gbii" ));
+		  WebUtil.click(driver,By.cssSelector(".gb_3a.gbii" ));
 		 Thread.sleep(1000);
           WebUtil.click(driver, By.xpath(".//*[@id='gb_71']"));
           Thread.sleep(2000);

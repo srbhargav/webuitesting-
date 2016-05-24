@@ -1,0 +1,9 @@
+com\webuiautomation\pageobjects\EmailHomepage.class
+com\webuiautomation\pageobjects\EmailViewPage.class
+com\webuiautomation\categories\Major.class
+com\webuiautomation_test\webui\GmailSignInTest.class
+com\webuiautomation\categories\Critical.class
+com\webautomations\util\WebUtil.class
+com\webautomations\util\Constant.class
+com\webuiautomation\pageobjects\SignInPage.class
+com\webuiautomation_test\webui\App.class
