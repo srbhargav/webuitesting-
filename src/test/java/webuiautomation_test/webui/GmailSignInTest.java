@@ -45,7 +45,7 @@ public class GmailSignInTest {
           //5. Verify User did sign in
           Assert.assertTrue("Inbox should exist", emailHomepage.isInboxExist(driver));
           
-          //6. sign out
+          //6. sign out should be present
           signInPage =  emailHomepage.signOut(driver);
           
           //7. Verified User signed out 
@@ -100,7 +100,7 @@ public class GmailSignInTest {
         String actualSubject = emailViewPage.getEmailSubjectText(driver);
          
         
-         Assert.assertEquals("Email subject should be same", subject, actualSubject);
+         Assert.assertEquals("Email subject should be same as it", subject, actualSubject);
          
          String actualBody = emailViewPage.getEmailBodyText(driver);
          
